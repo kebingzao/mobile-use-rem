@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+html, body {
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    min-height: 101%;
+    background-color: #fff;
+}
+#tip {
+    text-align: center;
+}
+#tip img {
+    margin-top: 3rem;
+    width: 12rem;
+}
+#detail {
+    padding: 0 2rem;
+}
+#detail h2 {
+    text-align: center;
+    margin-top: 1rem;
+    color: #616161;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+#detail span {
+    color: #ff5000;
+}
+#detail p {
+    color: #848484;
+    line-height: 1.2rem;
+    font-size: 0.64rem;
+}
+#detail .des {
+    text-indent: 2.0rem;
+}
+/* 针对一倍屏幕，并且宽度超过600做适配*/
+@media (min-width: 600px) {
+    html[data-dpr="1"]{
+        font-size: 32px !important;
+    }
+}
+/* 针对二倍屏幕，并且宽度超过1200做适配*/
+@media (min-width: 1200px) {
+    html[data-dpr="2"]{
+        font-size: 50px !important;
+    }
+}

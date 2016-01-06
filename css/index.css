@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;}
+html, body {
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    min-height: 101%;
+    background-color: #fff;
+}
+#tip {
+    text-align: center;
+}
+#tip img {
+    margin-top: 4rem;
+    width: 20rem;
+}
+#detail {
+    padding: 0 2rem;
+}
+#detail h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #616161;
+    margin-bottom: 1.4rem;
+}
+#detail span {
+    color: #ff5000;
+}
+#detail p {
+    color: #848484;
+    line-height: 1.8rem;
+    font-size: 1.14rem;
+}
+#detail .des {
+    text-indent: 2.0rem;
+}
+@media (max-width: 340px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media(min-width: 340px) and (max-width: 420px){
+    html{
+        font-size: 14px;
+    }
+}
+@media(min-width: 420px) and (max-width: 760px){
+    html{
+        font-size: 18px;
+    }
+}
+@media(min-width: 760px){
+    html{
+        font-size: 22px;
+    }
+}
